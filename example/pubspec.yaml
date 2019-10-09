@@ -31,13 +31,7 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-  assets:
-    - images/bpbase_default_holder_dark_normal.png
-    - images/bpbase_default_holder_dark_small.png
-    - images/bpbase_default_holder_light_big.png
-    - images/bpbase_default_holder_light_normal.png
-    - images/bpbase_default_holder_light_small.png
-#    - packages:yc_flutter_plugin/images/ic_load_error_normal.png
+#  assets:
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
