@@ -32,79 +32,8 @@ flutter:
     pluginClass: YcFlutterPlugin
 
   # To add assets to your plugin package, add an assets section, like this:
-  assets:
-    - images/bpbase_default_holder_dark_normal.png
-    - images/bpbase_default_holder_dark_small.png
-    - images/bpbase_default_holder_light_big.png
-    - images/bpbase_default_holder_light_normal.png
-    - images/bpbase_default_holder_light_small.png
-    - images/ic_loading_0.png
-    - images/ic_loading_1.png
-    - images/ic_loading_2.png
-    - images/ic_loading_3.png
-    - images/ic_loading_4.png
-    - images/ic_loading_5.png
-    - images/ic_loading_6.png
-    - images/ic_loading_7.png
-    - images/ic_loading_8.png
-    - images/ic_loading_9.png
-    - images/ic_loading_10.png
-    - images/ic_loading_11.png
-    - images/ic_loading_12.png
-    - images/ic_loading_13.png
-    - images/ic_loading_14.png
-    - images/ic_loading_15.png
-    - images/ic_loading_16.png
-    - images/ic_loading_17.png
-    - images/ic_loading_18.png
-    - images/ic_loading_19.png
-    - images/ic_loading_20.png
-    - images/ic_loading_21.png
-    - images/ic_loading_22.png
-    - images/ic_loading_23.png
-    - images/ic_loading_24.png
-    - images/ic_loading_25.png
-    - images/ic_loading_26.png
-    - images/ic_loading_27.png
-    - images/ic_loading_28.png
-    - images/ic_loading_29.png
-    - images/ic_load_empty_dark.png
-    - images/ic_load_empty_normal.png
-    - images/ic_load_error_dark.png
-    - images/ic_load_error_normal.png
-    - images/ic_load_failure_dark.png
-    - images/ic_load_failure_normal.png
-    - images/common_ptr_l_0.png
-    - images/common_ptr_l_1.png
-    - images/common_ptr_l_2.png
-    - images/common_ptr_l_3.png
-    - images/common_ptr_l_4.png
-    - images/common_ptr_l_5.png
-    - images/common_ptr_l_6.png
-    - images/common_ptr_l_7.png
-    - images/common_ptr_l_8.png
-    - images/common_ptr_l_9.png
-    - images/common_ptr_l_10.png
-    - images/common_ptr_l_11.png
-    - images/common_ptr_l_12.png
-    - images/common_ptr_l_13.png
-    - images/common_ptr_l_14.png
-    - images/common_ptr_l_15.png
-    - images/common_ptr_l_16.png
-    - images/common_ptr_l_17.png
-    - images/common_ptr_l_18.png
-    - images/common_ptr_l_19.png
-    - images/common_ptr_l_20.png
-    - images/common_ptr_l_21.png
-    - images/common_ptr_l_22.png
-    - images/common_ptr_l_23.png
-    - images/common_ptr_l_24.png
-    - images/common_ptr_l_25.png
-    - images/common_ptr_l_26.png
-    - images/common_ptr_l_27.png
-    - images/common_ptr_l_28.png
-    - images/common_ptr_l_29.png
-    - images/common_ptr_nomore.png
+#  assets:
+
   #
   # For details regarding assets in packages, see
   # https://flutter.dev/assets-and-images/#from-packages
