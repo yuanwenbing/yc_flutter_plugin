@@ -1,6 +1,6 @@
 # yc_flutter_plugin
 
-A new Flutter plugin.
+A new Flutter plugin for yc.
 
 ## Getting Started
 
