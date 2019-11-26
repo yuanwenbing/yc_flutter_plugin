@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'dart:async';
 import 'package:flutter/services.dart';
 import 'package:yc_flutter_plugin/yc_flutter_plugin.dart';
+import 'package:yc_flutter_plugin/yc_platform_plugins.dart';
 
 void main() => runApp(MyApp());
 
@@ -24,7 +25,7 @@ class _MyAppState extends State<MyApp> {
     String platformVersion;
     // Platform messages may fail, so we use a try/catch PlatformException.
     try {
-//      platformVersion = await YcFlutterPlugin.platformVersion;
+      platformVersion = await YcFlutterPlugin.platformVersion;
     } on PlatformException {
       platformVersion = 'Failed to get platform version.';
     }
@@ -44,7 +45,7 @@ class _MyAppState extends State<MyApp> {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-          title: const Text('Plugin example app'),
+          title: Text(_platformVersion),
         ),
         body: YCLoading(
           state: LoadingState.SUCCESS,

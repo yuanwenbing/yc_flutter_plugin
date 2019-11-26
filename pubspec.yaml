@@ -1,8 +1,8 @@
 name: yc_flutter_plugin
 description: A new Flutter plugin.
 version: 0.0.1
-author:
-homepage:
+author: yuanwb <wenbing1007@gmail.com>
+homepage: https://github.com/yuanwenbing/yuanwenbing.github.io
 
 environment:
   sdk: ">=2.1.0 <3.0.0"
@@ -13,6 +13,12 @@ dependencies:
   dio: ^2.1.16
   cached_network_image: ^1.1.1
   pull_to_refresh: ^1.5.6
+  http: ^0.12.0+2
+  path_provider: ^1.3.0
+  flutter_cache_manager: ^1.1.1
+  path: ^1.6.4
+
+
 
 dev_dependencies:
   flutter_test:
