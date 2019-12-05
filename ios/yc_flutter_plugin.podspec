@@ -17,7 +17,8 @@ A new Flutter plugin.
   s.dependency 'Flutter'
 
   s.ios.deployment_target = '8.0'
-  s.pod_target_xcconfig = { 'SWIFT_VERSION' => '4.1' }
+  s.source_files = "ios/**/*.{swift}"
+  s.swift_version = "4.1"
 
 end
 
