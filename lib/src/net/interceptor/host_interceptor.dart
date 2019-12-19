@@ -44,7 +44,7 @@ class HostInterceptor extends Interceptor {
   }
 
   @override
-  FutureOr onRequest(RequestOptions options) {
+  Future onRequest(RequestOptions options) {
     bool release = const bool.fromEnvironment("dart.vm.product"); // 是否是release环境
     if (release || forceHttps) {
       if (options.uri.isScheme("http")) {

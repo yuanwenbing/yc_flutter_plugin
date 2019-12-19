@@ -42,7 +42,7 @@ class HeaderParamsInterceptor extends Interceptor {
   HeaderParamsInterceptor(this.cid);
 
   @override
-  FutureOr onRequest(RequestOptions options) {
+  Future onRequest(RequestOptions options) {
     Uri uri = options.uri;
     if(uri.host == "mapi.yiche.com") {
       var headers = options.headers;
